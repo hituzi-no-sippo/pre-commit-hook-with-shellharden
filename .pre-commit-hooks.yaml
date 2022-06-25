@@ -1,0 +1,7 @@
+---
+- id: shellharden
+  name: fix quotes on shell with shellharden
+  description: fix quotes on shell with shellharden.
+  entry: shellharden --replace
+  language: system
+  types: [shell]
